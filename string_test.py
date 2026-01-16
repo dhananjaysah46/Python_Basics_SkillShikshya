@@ -23,9 +23,16 @@
 # print("list2[1:5]:", list2[1:5])
 # print("list2[:-1]:", list2[::-1])
 
-list1 = ['python', 'programming', 1997, 2000]
-print(list1)
-del list1[2]
-print("after deleting value at index 2: ", list1)
+# list1 = ['python', 'programming', 1997, 2000]
+# print(list1)
+# del list1[2]
+# print("after deleting value at index 2: ", list1)
+
+my_list = [1,2,3,4,5]
+index = 0
+
+while index < len(my_list):
+    print(my_list[index])
+    index += 1
 
 
